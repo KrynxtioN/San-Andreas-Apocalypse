@@ -1,3 +1,6 @@
+For detailed information, visit the wiki:   
+https://github.com/BEMYDRE4M/San-Andreas-Apocalypse/wiki
+
 ### 🌍 Welcome to San Andreas Apocalypse
 
 Step into the immersive post-apocalyptic world of San Andreas Apocalypse, where survival, exploration, and adventure go hand in hand. You start in Zone 11 – Dillimore’s Hope, a safe colony that took you in after the outbreak. A short tutorial guides you through the basics of the game, and from there, the world is yours to explore. Daily login rewards keep the adventure exciting, giving you unique items each day, while the referral system allows you to invite friends and earn rewards as they progress. Character settings let you customize spawn points, skip the intro, change language, and enter bonus codes for extra advantages.
