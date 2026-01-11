@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/spoIqj5.png" alt="Logo" width="400">
+</p>
+
 https://multitheftauto.com
 
 For detailed information, visit the wiki:   
