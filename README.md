@@ -2,7 +2,8 @@
   <img src="https://i.imgur.com/spoIqj5.png" alt="Logo" width="400">
 </p>
 
-https://multitheftauto.com
+https://multitheftauto.com   
+mtasa://179.61.132.118:22003
 
 For detailed information, visit the wiki:   
 https://github.com/BEMYDRE4M/San-Andreas-Apocalypse/wiki
