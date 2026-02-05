@@ -59,3 +59,14 @@ The personal overview menu (F2) tracks photos, documents, achievements, crafting
 ### 💀 Are You Ready to Survive?
 
 In San Andreas Apocalypse, every choice matters. Explore a vast, dynamic world, face challenging quests, team up with allies, craft powerful items, and rise above the apocalypse. Your journey begins now — will you survive and reclaim San Andreas, or become part of the horde?
+
+
+|Category|Amount|
+|--------|------|
+|LUA files|
+|other files|
+|functions|
+|lines|
+|characters|
+|comment-lines|
+|comment-characters|
