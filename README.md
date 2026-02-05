@@ -1,4 +1,7 @@
-# San Andreas Apocalypse
+# San Andreas Apocalypse v.1.0.5
+
+For detailed gameplay information, visit the wiki:   
+https://github.com/KrynxtioN/San-Andreas-Apocalypse/wiki   
 
 |Category|Amount|
 |--------|------|
