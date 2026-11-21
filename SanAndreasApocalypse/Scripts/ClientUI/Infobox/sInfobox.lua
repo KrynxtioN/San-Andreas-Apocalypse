@@ -1,0 +1,1 @@
+function createInfobox(player, message) triggerClientEvent(player, "createInfobox", player, message) end

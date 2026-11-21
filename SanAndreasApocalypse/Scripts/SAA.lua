@@ -1,0 +1,1 @@
+for _,v in pairs(getElementsByType("ped"))do setPedVoice(v,"PED_TYPE_DISABLED") end

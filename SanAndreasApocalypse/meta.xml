@@ -1,0 +1,1634 @@
+<meta>
+    <info author = "BEMYDRE4M Development / KrynxtioN" gamemode = "San Andreas Apocalypse" version = "1.1.0" last-update = "15 February 2026"/>
+    <min_mta_version server="1.6.0-9.21765"></min_mta_version>
+	
+	<file src = "Scripts/Events/Valentine/Files/Images/Drop1.png"/>
+	<file src = "Scripts/Events/Valentine/Files/Images/Drop2.png"/>
+	<file src = "Scripts/Events/Valentine/Files/Images/Drop3.png"/>
+	<file src = "Scripts/Events/Valentine/Files/Images/Drop4.png"/>
+	<file src = "Scripts/Events/Valentine/Files/Images/Image1.png"/>
+	<file src = "Scripts/Events/Valentine/Files/Images/Image2.png"/>
+    
+	<file src = "Files/Sounds/Zombies/mgroan1.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan2.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan3.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan4.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan5.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan6.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan7.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan8.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan9.ogg"/>
+	<file src = "Files/Sounds/Zombies/mgroan10.ogg"/>
+	
+	<!--<script src = "Maps/Jewelry/client.lua" type="client" />
+	<file src = "Maps/Jewelry/1.dff" />
+    <file src = "Maps/Jewelry/1.txd" />
+    <file src = "Maps/Jewelry/1.col" />
+	<file src = "Maps/Jewelry/2.dff" />
+	<file src = "Maps/Jewelry/2.txd" />
+	<file src = "Maps/Jewelry/2.col" />
+	<file src = "Maps/Jewelry/3.dff" />
+	<file src = "Maps/Jewelry/3.txd" />
+	<file src = "Maps/Jewelry/3.col" />
+	<file src = "Maps/Jewelry/4.dff" />
+	<file src = "Maps/Jewelry/4.txd" />
+	<file src = "Maps/Jewelry/4.col" />
+	<file src = "Maps/Jewelry/5.dff" />
+	<file src = "Maps/Jewelry/5.txd" />
+	<file src = "Maps/Jewelry/5.col" />
+	<file src = "Maps/Jewelry/door.dff" />
+	<file src = "Maps/Jewelry/door.txd" />
+	<file src = "Maps/Jewelry/door.col" />
+	<map src = "Maps/Jewelry/map_javahery.map" dimension = "0"></map>-->
+	
+    <file src = "Files/Images/Button_Normal.png"/>
+    <file src = "Files/Images/Button_Hover.png"/>
+    <file src = "Files/Images/Window1.png"/>
+    <file src = "Files/Images/Window2.png"/>
+    <file src = "Files/Images/SAApocalypse.png"/>
+    <file src = "Files/Images/SAApocalypse_Halloween.png"/>
+    <file src = "Files/Images/Header.png"/>
+    <file src = "Files/Images/Hearth.png"/>
+    <file src = "Files/Images/Achievement.png"/>
+    <file src = "Files/Images/Cross.png"/>
+    <file src = "Files/Images/Document.png"/>
+    <file src = "Files/Images/Status.png"/>
+    <file src = "Files/Images/Character.png"/>
+    <file src = "Files/Images/Helpmenu.png"/>
+    <file src = "Files/Images/Keyshop.png"/>
+    <file src = "Files/Images/Discord.png"/>
+    <file src = "Files/Images/YouTube.png"/>
+    <file src = "Files/Images/Updates.png"/>
+    <file src = "Files/Images/Radio.png"/>
+    <file src = "Files/Images/MarkQuestion.png"/>
+    <file src = "Files/Images/Bloodscreen.png"/>
+    <file src = "Files/Images/SafeDial.png"/>
+    <file src = "Files/Images/DocumentPaper.png"/>
+	<file src = "Files/Images/OxygenBottle.png"/>
+	<file src = "Files/Images/DivingGoggles.png"/>
+	<file src = "Files/Images/Bonus_Zone.png"/>
+	<file src = "Files/Images/TrashCompactor.png"/>
+	<file src = "Files/Images/TradingCardPack.png"/>
+	
+	<file src = "Files/Images/LaborInfos/1.png"/>
+	<file src = "Files/Images/LaborInfos/2.png"/>
+	<file src = "Files/Images/Laboratorys/1.png"/>
+	<file src = "Files/Images/Laboratorys/2.png"/>
+	
+	<file src = "Files/Images/Badges/Badge_1.png"/>
+	<file src = "Files/Images/Badges/Badge_2.png"/>
+	<file src = "Files/Images/Badges/Badge_3.png"/>
+	<file src = "Files/Images/Badges/Badge_4.png"/>
+	<file src = "Files/Images/Badges/Badge_5.png"/>
+	<file src = "Files/Images/Badges/Badge_6.png"/>
+	<file src = "Files/Images/Badges/Badge_7.png"/>
+	<file src = "Files/Images/Badges/Badge_8.png"/>
+	<file src = "Files/Images/Badges/Badge_9.png"/>
+    
+	<file src = "Files/Images/Selfmenue/PlayerInformationscolored.png"/>
+	<file src = "Files/Images/Selfmenue/PlayerInformationsgrey.png"/>
+	<file src = "Files/Images/Selfmenue/Awardscolored.png"/>
+	<file src = "Files/Images/Selfmenue/Awardsgrey.png"/>
+	<file src = "Files/Images/Selfmenue/Vehiclescolored.png"/>
+	<file src = "Files/Images/Selfmenue/Vehiclesgrey.png"/>
+	<file src = "Files/Images/Selfmenue/Friendlistcolored.png"/>
+	<file src = "Files/Images/Selfmenue/Friendlistgrey.png"/>
+	<file src = "Files/Images/Selfmenue/Closecolored.png"/>
+	<file src = "Files/Images/Selfmenue/Closegrey.png"/>
+	
+    <file src = "Files/Images/Activities/WoodPlank.png"/>
+    <file src = "Files/Images/Activities/Info.png"/>
+    <file src = "Files/Images/Activities/QuestStage1.png"/>
+    <file src = "Files/Images/Activities/QuestStage2.png"/>
+    <file src = "Files/Images/Activities/QuestStage3.png"/>
+    
+    <file src = "Files/Images/Textures/veding1_64.png"/>
+    <file src = "Files/Images/Textures/veding2_64.png"/>
+    
+    <file src = "Files/Images/Photos/Photo_1.png"/>
+    <file src = "Files/Images/Photos/Photo_2.png"/>
+    <file src = "Files/Images/Photos/Photo_3.png"/>
+    <file src = "Files/Images/Photos/Photo_4.png"/>
+    <file src = "Files/Images/Photos/Photo_5.png"/>
+    <file src = "Files/Images/Photos/Photo_6.png"/>
+    
+    <file src = "Files/Images/Inventory/1.png"/>
+    <file src = "Files/Images/Inventory/2.png"/>
+    <file src = "Files/Images/Inventory/3.png"/>
+    <file src = "Files/Images/Inventory/4.png"/>
+    <file src = "Files/Images/Inventory/5.png"/>
+    <file src = "Files/Images/Inventory/6.png"/>
+    <file src = "Files/Images/Inventory/7.png"/>
+    <file src = "Files/Images/Inventory/8.png"/>
+    <file src = "Files/Images/Inventory/9.png"/>
+    <file src = "Files/Images/Inventory/10.png"/>
+    <file src = "Files/Images/Inventory/11.png"/>
+    <file src = "Files/Images/Inventory/12.png"/>
+    <file src = "Files/Images/Inventory/13.png"/>
+    <file src = "Files/Images/Inventory/14.png"/>
+    <file src = "Files/Images/Inventory/15.png"/>
+    <file src = "Files/Images/Inventory/16.png"/>
+    <file src = "Files/Images/Inventory/17.png"/>
+    <file src = "Files/Images/Inventory/18.png"/>
+    <file src = "Files/Images/Inventory/19.png"/>
+    <file src = "Files/Images/Inventory/20.png"/>
+    <file src = "Files/Images/Inventory/21.png"/>
+    <file src = "Files/Images/Inventory/22.png"/>
+    <file src = "Files/Images/Inventory/23.png"/>
+    <file src = "Files/Images/Inventory/24.png"/>
+    <file src = "Files/Images/Inventory/25.png"/>
+    <file src = "Files/Images/Inventory/26.png"/>
+    <file src = "Files/Images/Inventory/27.png"/>
+    <file src = "Files/Images/Inventory/28.png"/>
+    <file src = "Files/Images/Inventory/29.png"/>
+    <file src = "Files/Images/Inventory/30.png"/>
+    <file src = "Files/Images/Inventory/31.png"/>
+    <file src = "Files/Images/Inventory/32.png"/>
+    <file src = "Files/Images/Inventory/33.png"/>
+    <file src = "Files/Images/Inventory/34.png"/>
+    <file src = "Files/Images/Inventory/35.png"/>
+    <file src = "Files/Images/Inventory/36.png"/>
+    <file src = "Files/Images/Inventory/37.png"/>
+    <file src = "Files/Images/Inventory/38.png"/>
+    <file src = "Files/Images/Inventory/39.png"/>
+    <file src = "Files/Images/Inventory/40.png"/>
+    <file src = "Files/Images/Inventory/41.png"/>
+    <file src = "Files/Images/Inventory/42.png"/>
+    <file src = "Files/Images/Inventory/43.png"/>
+    <file src = "Files/Images/Inventory/44.png"/>
+    <file src = "Files/Images/Inventory/45.png"/>
+    <file src = "Files/Images/Inventory/46.png"/>
+    <file src = "Files/Images/Inventory/47.png"/>
+    <file src = "Files/Images/Inventory/48.png"/>
+    <file src = "Files/Images/Inventory/49.png"/>
+    <file src = "Files/Images/Inventory/50.png"/>
+    <file src = "Files/Images/Inventory/51.png"/>
+    <file src = "Files/Images/Inventory/52.png"/>
+    <file src = "Files/Images/Inventory/53.png"/>
+    <file src = "Files/Images/Inventory/54.png"/>
+    <file src = "Files/Images/Inventory/55.png"/>
+    <file src = "Files/Images/Inventory/56.png"/>
+    <file src = "Files/Images/Inventory/57.png"/>
+    <file src = "Files/Images/Inventory/58.png"/>
+    <file src = "Files/Images/Inventory/59.png"/>
+    <file src = "Files/Images/Inventory/60.png"/>
+    <file src = "Files/Images/Inventory/61.png"/>
+    <file src = "Files/Images/Inventory/62.png"/>
+    <file src = "Files/Images/Inventory/63.png"/>
+    <file src = "Files/Images/Inventory/64.png"/>
+    <file src = "Files/Images/Inventory/65.png"/>
+    <file src = "Files/Images/Inventory/66.png"/>
+    <file src = "Files/Images/Inventory/67.png"/>
+    <file src = "Files/Images/Inventory/68.png"/>
+    <file src = "Files/Images/Inventory/69.png"/>
+    <file src = "Files/Images/Inventory/70.png"/>
+    <file src = "Files/Images/Inventory/71.png"/>
+    <file src = "Files/Images/Inventory/72.png"/>
+    <file src = "Files/Images/Inventory/73.png"/>
+    <file src = "Files/Images/Inventory/74.png"/>
+    <file src = "Files/Images/Inventory/75.png"/>
+    <file src = "Files/Images/Inventory/76.png"/>
+    <file src = "Files/Images/Inventory/77.png"/>
+    <file src = "Files/Images/Inventory/78.png"/>
+    <file src = "Files/Images/Inventory/79.png"/>
+    <file src = "Files/Images/Inventory/80.png"/>
+    <file src = "Files/Images/Inventory/81.png"/>
+    <file src = "Files/Images/Inventory/82.png"/>
+    <file src = "Files/Images/Inventory/83.png"/>
+    <file src = "Files/Images/Inventory/84.png"/>
+    <file src = "Files/Images/Inventory/85.png"/>
+    <file src = "Files/Images/Inventory/86.png"/>
+    <file src = "Files/Images/Inventory/87.png"/>
+    <file src = "Files/Images/Inventory/88.png"/>
+    <file src = "Files/Images/Inventory/89.png"/>
+    <file src = "Files/Images/Inventory/90.png"/>
+    <file src = "Files/Images/Inventory/91.png"/>
+    <file src = "Files/Images/Inventory/92.png"/>
+    <file src = "Files/Images/Inventory/93.png"/>
+    <file src = "Files/Images/Inventory/94.png"/>
+    <file src = "Files/Images/Inventory/95.png"/>
+    <file src = "Files/Images/Inventory/96.png"/>
+    <file src = "Files/Images/Inventory/97.png"/>
+    <file src = "Files/Images/Inventory/98.png"/>
+    <file src = "Files/Images/Inventory/99.png"/>
+    <file src = "Files/Images/Inventory/100.png"/>
+    <file src = "Files/Images/Inventory/101.png"/>
+    <file src = "Files/Images/Inventory/102.png"/>
+    <file src = "Files/Images/Inventory/106.png"/>
+    <file src = "Files/Images/Inventory/107.png"/>
+    <file src = "Files/Images/Inventory/108.png"/>
+	<file src = "Files/Images/Inventory/103.png"/>
+	<file src = "Files/Images/Inventory/104.png"/>
+	<file src = "Files/Images/Inventory/105.png"/>
+	<file src = "Files/Images/Inventory/109.png"/>
+	<file src = "Files/Images/Inventory/110.png"/>
+	<file src = "Files/Images/Inventory/111.png"/>
+	<file src = "Files/Images/Inventory/112.png"/>
+	<file src = "Files/Images/Inventory/113.png"/>
+	<file src = "Files/Images/Inventory/114.png"/>
+	<file src = "Files/Images/Inventory/115.png"/>
+	<file src = "Files/Images/Inventory/116.png"/>
+	<file src = "Files/Images/Inventory/117.png"/>
+	<file src = "Files/Images/Inventory/118.png"/>
+	<file src = "Files/Images/Inventory/119.png"/>
+	<file src = "Files/Images/Inventory/120.png"/>
+	<file src = "Files/Images/Inventory/121.png"/>
+	<file src = "Files/Images/Inventory/122.png"/>
+	<file src = "Files/Images/Inventory/123.png"/>
+	<file src = "Files/Images/Inventory/124.png"/>
+	<file src = "Files/Images/Inventory/125.png"/>
+	<file src = "Files/Images/Inventory/126.png"/>
+	<file src = "Files/Images/Inventory/127.png"/>
+	<file src = "Files/Images/Inventory/128.png"/>
+	<file src = "Files/Images/Inventory/129.png"/>
+	<file src = "Files/Images/Inventory/130.png"/>
+	<file src = "Files/Images/Inventory/131.png"/>
+	<file src = "Files/Images/Inventory/132.png"/>
+	<file src = "Files/Images/Inventory/133.png"/>
+	<file src = "Files/Images/Inventory/134.png"/>
+	<file src = "Files/Images/Inventory/135.png"/>
+	<file src = "Files/Images/Inventory/136.png"/>
+	<file src = "Files/Images/Inventory/137.png"/>
+	<file src = "Files/Images/Inventory/138.png"/>
+	<file src = "Files/Images/Inventory/139.png"/>
+	<file src = "Files/Images/Inventory/140.png"/>
+	<file src = "Files/Images/Inventory/141.png"/>
+	<file src = "Files/Images/Inventory/142.png"/>
+	<file src = "Files/Images/Inventory/143.png"/>
+	<file src = "Files/Images/Inventory/144.png"/>
+	<file src = "Files/Images/Inventory/145.png"/>
+	<file src = "Files/Images/Inventory/146.png"/>
+	<file src = "Files/Images/Inventory/147.png"/>
+	<file src = "Files/Images/Inventory/148.png"/>
+	<file src = "Files/Images/Inventory/149.png"/>
+	<file src = "Files/Images/Inventory/150.png"/>
+	<file src = "Files/Images/Inventory/151.png"/>
+	<file src = "Files/Images/Inventory/152.png"/>
+	<file src = "Files/Images/Inventory/153.png"/>
+	<file src = "Files/Images/Inventory/154.png"/>
+	<file src = "Files/Images/Inventory/155.png"/>
+	<file src = "Files/Images/Inventory/156.png"/>
+	<file src = "Files/Images/Inventory/157.png"/>
+	<file src = "Files/Images/Inventory/158.png"/>
+	<file src = "Files/Images/Inventory/159.png"/>
+	<file src = "Files/Images/Inventory/160.png"/>
+	<file src = "Files/Images/Inventory/161.png"/>
+	<file src = "Files/Images/Inventory/162.png"/>
+	<file src = "Files/Images/Inventory/163.png"/>
+	<file src = "Files/Images/Inventory/164.png"/>
+	<file src = "Files/Images/Inventory/165.png"/>
+	<file src = "Files/Images/Inventory/166.png"/>
+	<file src = "Files/Images/Inventory/167.png"/>
+	<file src = "Files/Images/Inventory/168.png"/>
+	<file src = "Files/Images/Inventory/169.png"/>
+	<file src = "Files/Images/Inventory/170.png"/>
+	<file src = "Files/Images/Inventory/171.png"/>
+	<file src = "Files/Images/Inventory/172.png"/>
+	<file src = "Files/Images/Inventory/173.png"/>
+	<file src = "Files/Images/Inventory/174.png"/>
+	<file src = "Files/Images/Inventory/175.png"/>
+	<file src = "Files/Images/Inventory/176.png"/>
+	<file src = "Files/Images/Inventory/177.png"/>
+	<file src = "Files/Images/Inventory/178.png"/>
+	<file src = "Files/Images/Inventory/179.png"/>
+	<file src = "Files/Images/Inventory/180.png"/>
+	<file src = "Files/Images/Inventory/181.png"/>
+	<file src = "Files/Images/Inventory/182.png"/>
+	<file src = "Files/Images/Inventory/183.png"/>
+	<file src = "Files/Images/Inventory/184.png"/>
+	<file src = "Files/Images/Inventory/185.png"/>
+	<file src = "Files/Images/Inventory/186.png"/>
+	<file src = "Files/Images/Inventory/187.png"/>
+	<file src = "Files/Images/Inventory/188.png"/>
+	<file src = "Files/Images/Inventory/189.png"/>
+	<file src = "Files/Images/Inventory/190.png"/>
+	<file src = "Files/Images/Inventory/191.png"/>
+	<file src = "Files/Images/Inventory/192.png"/>
+	<file src = "Files/Images/Inventory/193.png"/>
+	<file src = "Files/Images/Inventory/194.png"/>
+	<file src = "Files/Images/Inventory/195.png"/>
+	<file src = "Files/Images/Inventory/196.png"/>
+	<file src = "Files/Images/Inventory/197.png"/>
+	<file src = "Files/Images/Inventory/198.png"/>
+	<file src = "Files/Images/Inventory/199.png"/>
+	<file src = "Files/Images/Inventory/200.png"/>
+	<file src = "Files/Images/Inventory/201.png"/>
+	<file src = "Files/Images/Inventory/202.png"/>
+	<file src = "Files/Images/Inventory/203.png"/>
+	<file src = "Files/Images/Inventory/204.png"/>
+	<file src = "Files/Images/Inventory/205.png"/>
+	<file src = "Files/Images/Inventory/206.png"/>
+	<file src = "Files/Images/Inventory/207.png"/>
+	<file src = "Files/Images/Inventory/208.png"/>
+	<file src = "Files/Images/Inventory/209.png"/>
+	<file src = "Files/Images/Inventory/210.png"/>
+	<file src = "Files/Images/Inventory/211.png"/>
+	<file src = "Files/Images/Inventory/212.png"/>
+	<file src = "Files/Images/Inventory/213.png"/>
+	<file src = "Files/Images/Inventory/214.png"/>
+	<file src = "Files/Images/Inventory/215.png"/>
+	<file src = "Files/Images/Inventory/216.png"/>
+	<file src = "Files/Images/Inventory/217.png"/>
+	<file src = "Files/Images/Inventory/218.png"/>
+	<file src = "Files/Images/Inventory/219.png"/>
+	<file src = "Files/Images/Inventory/220.png"/>
+	<file src = "Files/Images/Inventory/221.png"/>
+	<file src = "Files/Images/Inventory/222.png"/>
+	<file src = "Files/Images/Inventory/223.png"/>
+	<file src = "Files/Images/Inventory/224.png"/>
+	<file src = "Files/Images/Inventory/225.png"/>
+	<file src = "Files/Images/Inventory/226.png"/>
+	<file src = "Files/Images/Inventory/227.png"/>
+	<file src = "Files/Images/Inventory/228.png"/>
+	<file src = "Files/Images/Inventory/229.png"/>
+	<file src = "Files/Images/Inventory/230.png"/>
+	<file src = "Files/Images/Inventory/231.png"/>
+	<file src = "Files/Images/Inventory/232.png"/>
+	<file src = "Files/Images/Inventory/233.png"/>
+	<file src = "Files/Images/Inventory/234.png"/>
+	<file src = "Files/Images/Inventory/235.png"/>
+	<file src = "Files/Images/Inventory/236.png"/>
+	<file src = "Files/Images/Inventory/237.png"/>
+	<file src = "Files/Images/Inventory/238.png"/>
+	<file src = "Files/Images/Inventory/239.png"/>
+	<file src = "Files/Images/Inventory/240.png"/>
+	<file src = "Files/Images/Inventory/241.png"/>
+
+    <file src = "Files/Images/Vehicles/Vehicle_401.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_405.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_410.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_415.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_418.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_419.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_421.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_422.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_426.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_429.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_436.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_439.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_445.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_447.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_457.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_460.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_461.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_462.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_466.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_467.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_469.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_471.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_473.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_481.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_487.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_491.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_492.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_496.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_500.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_507.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_509.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_510.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_511.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_512.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_513.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_516.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_517.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_518.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_521.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_526.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_527.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_529.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_533.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_540.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_545.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_546.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_547.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_549.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_550.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_551.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_566.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_580.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_581.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_585.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_586.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_587.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_589.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_593.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_600.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_602.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_604.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_434.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_535.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_539.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_420.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_424.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_504.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_495.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_444.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_502.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_503.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_494.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_474.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_478.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_482.jpg"/>
+    <file src = "Files/Images/Vehicles/Vehicle_468.jpg"/>
+    
+    <file src = "Files/Images/Inventory/Keys/Key.png"/>
+    
+    <file src = "Files/Images/Inventory/Outfits/1.png"/>
+    <file src = "Files/Images/Inventory/Outfits/2.png"/>
+    <file src = "Files/Images/Inventory/Outfits/3.png"/>
+    <file src = "Files/Images/Inventory/Outfits/4.png"/>
+    <file src = "Files/Images/Inventory/Outfits/5.png"/>
+    
+    <file src = "Files/Images/Inventory/Heads/1.png"/>
+    <file src = "Files/Images/Inventory/Heads/2.png"/>
+    
+    <file src = "Files/Images/Characters/0.png"/>
+    <file src = "Files/Images/Characters/1.png"/>
+    <file src = "Files/Images/Characters/2.png"/>
+    <file src = "Files/Images/Characters/3.png"/>
+    <file src = "Files/Images/Characters/4.png"/>
+    <file src = "Files/Images/Characters/5.png"/>
+    <file src = "Files/Images/Characters/6.png"/>
+    <file src = "Files/Images/Characters/7.png"/>
+    <file src = "Files/Images/Characters/8.png"/>
+    <file src = "Files/Images/Characters/9.png"/>
+    <file src = "Files/Images/Characters/10.png"/>
+    <file src = "Files/Images/Characters/11.png"/>
+    <file src = "Files/Images/Characters/12.png"/>
+    <file src = "Files/Images/Characters/13.png"/>
+    <file src = "Files/Images/Characters/14.png"/>
+    <file src = "Files/Images/Characters/15.png"/>
+    <file src = "Files/Images/Characters/16.png"/>
+    <file src = "Files/Images/Characters/17.png"/>
+    <file src = "Files/Images/Characters/18.png"/>
+    <file src = "Files/Images/Characters/19.png"/>
+    <file src = "Files/Images/Characters/20.png"/>
+    <file src = "Files/Images/Characters/21.png"/>
+    <file src = "Files/Images/Characters/22.png"/>
+    <file src = "Files/Images/Characters/23.png"/>
+    <file src = "Files/Images/Characters/24.png"/>
+    <file src = "Files/Images/Characters/25.png"/>
+    <file src = "Files/Images/Characters/26.png"/>
+    <file src = "Files/Images/Characters/27.png"/>
+    <file src = "Files/Images/Characters/28.png"/>
+    <file src = "Files/Images/Characters/29.png"/>
+    <file src = "Files/Images/Characters/30.png"/>
+    <file src = "Files/Images/Characters/31.png"/>
+    <file src = "Files/Images/Characters/32.png"/>
+    <file src = "Files/Images/Characters/33.png"/>
+    <file src = "Files/Images/Characters/34.png"/>
+    <file src = "Files/Images/Characters/35.png"/>
+    <file src = "Files/Images/Characters/36.png"/>
+    <file src = "Files/Images/Characters/37.png"/>
+    <file src = "Files/Images/Characters/38.png"/>
+    <file src = "Files/Images/Characters/39.png"/>
+    <file src = "Files/Images/Characters/40.png"/>
+    <file src = "Files/Images/Characters/41.png"/>
+    <file src = "Files/Images/Characters/42.png"/>
+    <file src = "Files/Images/Characters/43.png"/>
+    <file src = "Files/Images/Characters/44.png"/>
+    <file src = "Files/Images/Characters/45.png"/>
+    <file src = "Files/Images/Characters/46.png"/>
+    <file src = "Files/Images/Characters/47.png"/>
+    <file src = "Files/Images/Characters/48.png"/>
+    <file src = "Files/Images/Characters/49.png"/>
+    <file src = "Files/Images/Characters/50.png"/>
+    <file src = "Files/Images/Characters/51.png"/>
+    <file src = "Files/Images/Characters/52.png"/>
+    <file src = "Files/Images/Characters/53.png"/>
+    <file src = "Files/Images/Characters/54.png"/>
+    <file src = "Files/Images/Characters/55.png"/>
+    <file src = "Files/Images/Characters/56.png"/>
+    <file src = "Files/Images/Characters/57.png"/>
+    <file src = "Files/Images/Characters/58.png"/>
+    <file src = "Files/Images/Characters/59.png"/>
+    <file src = "Files/Images/Characters/60.png"/>
+    <file src = "Files/Images/Characters/61.png"/>
+    <file src = "Files/Images/Characters/62.png"/>
+    <file src = "Files/Images/Characters/63.png"/>
+    <file src = "Files/Images/Characters/64.png"/>
+    <file src = "Files/Images/Characters/65.png"/>
+    <file src = "Files/Images/Characters/66.png"/>
+    <file src = "Files/Images/Characters/67.png"/>
+    <file src = "Files/Images/Characters/68.png"/>
+    <file src = "Files/Images/Characters/69.png"/>
+    <file src = "Files/Images/Characters/70.png"/>
+    <file src = "Files/Images/Characters/71.png"/>
+    <file src = "Files/Images/Characters/72.png"/>
+    <file src = "Files/Images/Characters/73.png"/>
+    <file src = "Files/Images/Characters/75.png"/>
+    <file src = "Files/Images/Characters/76.png"/>
+    <file src = "Files/Images/Characters/77.png"/>
+    <file src = "Files/Images/Characters/78.png"/>
+    <file src = "Files/Images/Characters/79.png"/>
+    <file src = "Files/Images/Characters/80.png"/>
+    <file src = "Files/Images/Characters/81.png"/>
+    <file src = "Files/Images/Characters/82.png"/>
+    <file src = "Files/Images/Characters/83.png"/>
+    <file src = "Files/Images/Characters/84.png"/>
+    <file src = "Files/Images/Characters/85.png"/>
+    <file src = "Files/Images/Characters/86.png"/>
+    <file src = "Files/Images/Characters/87.png"/>
+    <file src = "Files/Images/Characters/88.png"/>
+    <file src = "Files/Images/Characters/89.png"/>
+    <file src = "Files/Images/Characters/90.png"/>
+    <file src = "Files/Images/Characters/91.png"/>
+    <file src = "Files/Images/Characters/92.png"/>
+    <file src = "Files/Images/Characters/93.png"/>
+    <file src = "Files/Images/Characters/94.png"/>
+    <file src = "Files/Images/Characters/95.png"/>
+    <file src = "Files/Images/Characters/96.png"/>
+    <file src = "Files/Images/Characters/97.png"/>
+    <file src = "Files/Images/Characters/98.png"/>
+    <file src = "Files/Images/Characters/99.png"/>
+    <file src = "Files/Images/Characters/100.png"/>
+    <file src = "Files/Images/Characters/101.png"/>
+    <file src = "Files/Images/Characters/102.png"/>
+    <file src = "Files/Images/Characters/103.png"/>
+    <file src = "Files/Images/Characters/104.png"/>
+    <file src = "Files/Images/Characters/105.png"/>
+    <file src = "Files/Images/Characters/106.png"/>
+    <file src = "Files/Images/Characters/107.png"/>
+    <file src = "Files/Images/Characters/108.png"/>
+    <file src = "Files/Images/Characters/109.png"/>
+    <file src = "Files/Images/Characters/110.png"/>
+    <file src = "Files/Images/Characters/111.png"/>
+    <file src = "Files/Images/Characters/112.png"/>
+    <file src = "Files/Images/Characters/113.png"/>
+    <file src = "Files/Images/Characters/114.png"/>
+    <file src = "Files/Images/Characters/115.png"/>
+    <file src = "Files/Images/Characters/116.png"/>
+    <file src = "Files/Images/Characters/117.png"/>
+    <file src = "Files/Images/Characters/117.png"/>
+    <file src = "Files/Images/Characters/118.png"/>
+    <file src = "Files/Images/Characters/119.png"/>
+	<file src = "Files/Images/Characters/120.png"/>
+	<file src = "Files/Images/Characters/121.png"/>
+	<file src = "Files/Images/Characters/122.png"/>
+	<file src = "Files/Images/Characters/123.png"/>
+	<file src = "Files/Images/Characters/124.png"/>
+	<file src = "Files/Images/Characters/125.png"/>
+	<file src = "Files/Images/Characters/126.png"/>
+	<file src = "Files/Images/Characters/127.png"/>
+	<file src = "Files/Images/Characters/128.png"/>
+	<file src = "Files/Images/Characters/129.png"/>
+	<file src = "Files/Images/Characters/130.png"/>
+	<file src = "Files/Images/Characters/131.png"/>
+	<file src = "Files/Images/Characters/132.png"/>
+	<file src = "Files/Images/Characters/133.png"/>
+	<file src = "Files/Images/Characters/134.png"/>
+	<file src = "Files/Images/Characters/135.png"/>
+	<file src = "Files/Images/Characters/136.png"/>
+	<file src = "Files/Images/Characters/137.png"/>
+	<file src = "Files/Images/Characters/138.png"/>
+	<file src = "Files/Images/Characters/139.png"/>
+	<file src = "Files/Images/Characters/140.png"/>
+	<file src = "Files/Images/Characters/141.png"/>
+	<file src = "Files/Images/Characters/142.png"/>
+	<file src = "Files/Images/Characters/143.png"/>
+	<file src = "Files/Images/Characters/144.png"/>
+	<file src = "Files/Images/Characters/145.png"/>
+	<file src = "Files/Images/Characters/146.png"/>
+	<file src = "Files/Images/Characters/147.png"/>
+	<file src = "Files/Images/Characters/148.png"/>
+	<file src = "Files/Images/Characters/149.png"/>
+	<file src = "Files/Images/Characters/150.png"/>
+	<file src = "Files/Images/Characters/151.png"/>
+	<file src = "Files/Images/Characters/152.png"/>
+	<file src = "Files/Images/Characters/153.png"/>
+	<file src = "Files/Images/Characters/154.png"/>
+	<file src = "Files/Images/Characters/155.png"/>
+	<file src = "Files/Images/Characters/156.png"/>
+	<file src = "Files/Images/Characters/157.png"/>
+	<file src = "Files/Images/Characters/158.png"/>
+	<file src = "Files/Images/Characters/159.png"/>
+	<file src = "Files/Images/Characters/160.png"/>
+	<file src = "Files/Images/Characters/161.png"/>
+	<file src = "Files/Images/Characters/162.png"/>
+	<file src = "Files/Images/Characters/163.png"/>
+	<file src = "Files/Images/Characters/164.png"/>
+	<file src = "Files/Images/Characters/165.png"/>
+	<file src = "Files/Images/Characters/166.png"/>
+	<file src = "Files/Images/Characters/167.png"/>
+	<file src = "Files/Images/Characters/168.png"/>
+	<file src = "Files/Images/Characters/169.png"/>
+	<file src = "Files/Images/Characters/170.png"/>
+	<file src = "Files/Images/Characters/171.png"/>
+	<file src = "Files/Images/Characters/172.png"/>
+	<file src = "Files/Images/Characters/173.png"/>
+	<file src = "Files/Images/Characters/174.png"/>
+	<file src = "Files/Images/Characters/175.png"/>
+	<file src = "Files/Images/Characters/176.png"/>
+	<file src = "Files/Images/Characters/177.png"/>
+	<file src = "Files/Images/Characters/178.png"/>
+	<file src = "Files/Images/Characters/179.png"/>
+	<file src = "Files/Images/Characters/180.png"/>
+	<file src = "Files/Images/Characters/181.png"/>
+	<file src = "Files/Images/Characters/182.png"/>
+	<file src = "Files/Images/Characters/183.png"/>
+	<file src = "Files/Images/Characters/184.png"/>
+	<file src = "Files/Images/Characters/185.png"/>
+	<file src = "Files/Images/Characters/186.png"/>
+	<file src = "Files/Images/Characters/187.png"/>
+	<file src = "Files/Images/Characters/188.png"/>
+	<file src = "Files/Images/Characters/189.png"/>
+	<file src = "Files/Images/Characters/190.png"/>
+	<file src = "Files/Images/Characters/191.png"/>
+	<file src = "Files/Images/Characters/192.png"/>
+	<file src = "Files/Images/Characters/193.png"/>
+	<file src = "Files/Images/Characters/194.png"/>
+	<file src = "Files/Images/Characters/195.png"/>
+	<file src = "Files/Images/Characters/196.png"/>
+	<file src = "Files/Images/Characters/197.png"/>
+	<file src = "Files/Images/Characters/198.png"/>
+	<file src = "Files/Images/Characters/199.png"/>
+	<file src = "Files/Images/Characters/200.png"/>
+	<file src = "Files/Images/Characters/201.png"/>
+	<file src = "Files/Images/Characters/202.png"/>
+	<file src = "Files/Images/Characters/203.png"/>
+	<file src = "Files/Images/Characters/204.png"/>
+	<file src = "Files/Images/Characters/205.png"/>
+	<file src = "Files/Images/Characters/206.png"/>
+	<file src = "Files/Images/Characters/207.png"/>
+	<file src = "Files/Images/Characters/208.png"/>
+	<file src = "Files/Images/Characters/209.png"/>
+	<file src = "Files/Images/Characters/210.png"/>
+	<file src = "Files/Images/Characters/211.png"/>
+	<file src = "Files/Images/Characters/212.png"/>
+	<file src = "Files/Images/Characters/213.png"/>
+	<file src = "Files/Images/Characters/214.png"/>
+	<file src = "Files/Images/Characters/215.png"/>
+	<file src = "Files/Images/Characters/216.png"/>
+	<file src = "Files/Images/Characters/217.png"/>
+	<file src = "Files/Images/Characters/218.png"/>
+	<file src = "Files/Images/Characters/219.png"/>
+	<file src = "Files/Images/Characters/220.png"/>
+	<file src = "Files/Images/Characters/221.png"/>
+	<file src = "Files/Images/Characters/222.png"/>
+	<file src = "Files/Images/Characters/223.png"/>
+	<file src = "Files/Images/Characters/224.png"/>
+	<file src = "Files/Images/Characters/225.png"/>
+	<file src = "Files/Images/Characters/226.png"/>
+	<file src = "Files/Images/Characters/227.png"/>
+	<file src = "Files/Images/Characters/228.png"/>
+	<file src = "Files/Images/Characters/229.png"/>
+	<file src = "Files/Images/Characters/230.png"/>
+	<file src = "Files/Images/Characters/231.png"/>
+	<file src = "Files/Images/Characters/232.png"/>
+	<file src = "Files/Images/Characters/233.png"/>
+	<file src = "Files/Images/Characters/234.png"/>
+	<file src = "Files/Images/Characters/235.png"/>
+	<file src = "Files/Images/Characters/236.png"/>
+	<file src = "Files/Images/Characters/237.png"/>
+	<file src = "Files/Images/Characters/238.png"/>
+	<file src = "Files/Images/Characters/239.png"/>
+	<file src = "Files/Images/Characters/240.png"/>
+	<file src = "Files/Images/Characters/241.png"/>
+	<file src = "Files/Images/Characters/242.png"/>
+	<file src = "Files/Images/Characters/243.png"/>
+	<file src = "Files/Images/Characters/244.png"/>
+	<file src = "Files/Images/Characters/245.png"/>
+	<file src = "Files/Images/Characters/246.png"/>
+	<file src = "Files/Images/Characters/247.png"/>
+	<file src = "Files/Images/Characters/248.png"/>
+	<file src = "Files/Images/Characters/249.png"/>
+	<file src = "Files/Images/Characters/250.png"/>
+	<file src = "Files/Images/Characters/251.png"/>
+	<file src = "Files/Images/Characters/252.png"/>
+	<file src = "Files/Images/Characters/253.png"/>
+	<file src = "Files/Images/Characters/254.png"/>
+	<file src = "Files/Images/Characters/255.png"/>
+	<file src = "Files/Images/Characters/256.png"/>
+	<file src = "Files/Images/Characters/257.png"/>
+	<file src = "Files/Images/Characters/258.png"/>
+	<file src = "Files/Images/Characters/259.png"/>
+	<file src = "Files/Images/Characters/260.png"/>
+	<file src = "Files/Images/Characters/261.png"/>
+	<file src = "Files/Images/Characters/262.png"/>
+	<file src = "Files/Images/Characters/263.png"/>
+	<file src = "Files/Images/Characters/264.png"/>
+	<file src = "Files/Images/Characters/265.png"/>
+	<file src = "Files/Images/Characters/266.png"/>
+	<file src = "Files/Images/Characters/267.png"/>
+	<file src = "Files/Images/Characters/268.png"/>
+	<file src = "Files/Images/Characters/269.png"/>
+	<file src = "Files/Images/Characters/270.png"/>
+	<file src = "Files/Images/Characters/271.png"/>
+	<file src = "Files/Images/Characters/272.png"/>
+	<file src = "Files/Images/Characters/273.png"/>
+	<file src = "Files/Images/Characters/274.png"/>
+	<file src = "Files/Images/Characters/275.png"/>
+	<file src = "Files/Images/Characters/276.png"/>
+	<file src = "Files/Images/Characters/277.png"/>
+	<file src = "Files/Images/Characters/278.png"/>
+	<file src = "Files/Images/Characters/279.png"/>
+	<file src = "Files/Images/Characters/280.png"/>
+	<file src = "Files/Images/Characters/281.png"/>
+	<file src = "Files/Images/Characters/282.png"/>
+	<file src = "Files/Images/Characters/283.png"/>
+	<file src = "Files/Images/Characters/284.png"/>
+	<file src = "Files/Images/Characters/285.png"/>
+	<file src = "Files/Images/Characters/286.png"/>
+	<file src = "Files/Images/Characters/287.png"/>
+	<file src = "Files/Images/Characters/288.png"/>
+	<file src = "Files/Images/Characters/289.png"/>
+	<file src = "Files/Images/Characters/290.png"/>
+	<file src = "Files/Images/Characters/291.png"/>
+	<file src = "Files/Images/Characters/292.png"/>
+	<file src = "Files/Images/Characters/293.png"/>
+	<file src = "Files/Images/Characters/294.png"/>
+	<file src = "Files/Images/Characters/295.png"/>
+	<file src = "Files/Images/Characters/296.png"/>
+	<file src = "Files/Images/Characters/297.png"/>
+	<file src = "Files/Images/Characters/298.png"/>
+	<file src = "Files/Images/Characters/299.png"/>
+    
+    <file src = "Files/Images/SpinningWheel/EXP.png"/>
+    <file src = "Files/Images/SpinningWheel/Money.png"/>
+    <file src = "Files/Images/SpinningWheel/Brainmass.png"/>
+    <file src = "Files/Images/SpinningWheel/Freespin.png"/>
+    <file src = "Files/Images/SpinningWheel/BonusCoupon.png"/>
+    <file src = "Files/Images/SpinningWheel/SpecialItem.png"/>
+	<file src = "Files/Images/SpinningWheel/SACoinChest.png"/>
+    <file src = "Files/Images/SpinningWheel/VehicleChest.png"/>
+    
+    <file src = "Files/Images/Weapons/0.png"/>
+    <file src = "Files/Images/Weapons/1.png"/>
+    <file src = "Files/Images/Weapons/2.png"/>
+    <file src = "Files/Images/Weapons/3.png"/>
+    <file src = "Files/Images/Weapons/4.png"/>
+    <file src = "Files/Images/Weapons/6.png"/>
+    <file src = "Files/Images/Weapons/7.png"/>
+    <file src = "Files/Images/Weapons/8.png"/>
+    <file src = "Files/Images/Weapons/9.png"/>
+    <file src = "Files/Images/Weapons/10.png"/>
+    <file src = "Files/Images/Weapons/11.png"/>
+    <file src = "Files/Images/Weapons/12.png"/>
+    <file src = "Files/Images/Weapons/14.png"/>
+    <file src = "Files/Images/Weapons/15.png"/>
+    <file src = "Files/Images/Weapons/16.png"/>
+    <file src = "Files/Images/Weapons/17.png"/>
+    <file src = "Files/Images/Weapons/18.png"/>
+    <file src = "Files/Images/Weapons/22.png"/>
+    <file src = "Files/Images/Weapons/23.png"/>
+    <file src = "Files/Images/Weapons/24.png"/>
+    <file src = "Files/Images/Weapons/25.png"/>
+    <file src = "Files/Images/Weapons/26.png"/>
+    <file src = "Files/Images/Weapons/27.png"/>
+    <file src = "Files/Images/Weapons/28.png"/>
+    <file src = "Files/Images/Weapons/29.png"/>
+    <file src = "Files/Images/Weapons/30.png"/>
+    <file src = "Files/Images/Weapons/31.png"/>
+    <file src = "Files/Images/Weapons/32.png"/>
+    <file src = "Files/Images/Weapons/33.png"/>
+    <file src = "Files/Images/Weapons/34.png"/>
+    <file src = "Files/Images/Weapons/35.png"/>
+    <file src = "Files/Images/Weapons/36.png"/>
+    <file src = "Files/Images/Weapons/37.png"/>
+    <file src = "Files/Images/Weapons/38.png"/>
+    <file src = "Files/Images/Weapons/39.png"/>
+    <file src = "Files/Images/Weapons/40.png"/>
+    <file src = "Files/Images/Weapons/41.png"/>
+    <file src = "Files/Images/Weapons/42.png"/>
+    <file src = "Files/Images/Weapons/43.png"/>
+    <file src = "Files/Images/Weapons/44.png"/>
+    <file src = "Files/Images/Weapons/45.png"/>
+    <file src = "Files/Images/Weapons/46.png"/>
+    
+    <file src = "Files/Images/Blips/1.png"/>
+    <file src = "Files/Images/Blips/2.png"/>
+    <file src = "Files/Images/Blips/3.png"/>
+    <file src = "Files/Images/Blips/4.png"/>
+    <file src = "Files/Images/Blips/5.png"/>
+    <file src = "Files/Images/Blips/6.png"/>
+    <file src = "Files/Images/Blips/7.png"/>
+    <file src = "Files/Images/Blips/8.png"/>
+    <file src = "Files/Images/Blips/9.png"/>
+    <file src = "Files/Images/Blips/10.png"/>
+    <file src = "Files/Images/Blips/11.png"/>
+    <file src = "Files/Images/Blips/12.png"/>
+    <file src = "Files/Images/Blips/13.png"/>
+    <file src = "Files/Images/Blips/14.png"/>
+    <file src = "Files/Images/Blips/15.png"/>
+    <file src = "Files/Images/Blips/16.png"/>
+    <file src = "Files/Images/Blips/17.png"/>
+    <file src = "Files/Images/Blips/18.png"/>
+    <file src = "Files/Images/Blips/19.png"/>
+    <file src = "Files/Images/Blips/20.png"/>
+    <file src = "Files/Images/Blips/21.png"/>
+    <file src = "Files/Images/Blips/22.png"/>
+    <file src = "Files/Images/Blips/23.png"/>
+    <file src = "Files/Images/Blips/24.png"/>
+    <file src = "Files/Images/Blips/25.png"/>
+    <file src = "Files/Images/Blips/26.png"/>
+    <file src = "Files/Images/Blips/27.png"/>
+    <file src = "Files/Images/Blips/28.png"/>
+    <file src = "Files/Images/Blips/29.png"/>
+    <file src = "Files/Images/Blips/30.png"/>
+    <file src = "Files/Images/Blips/31.png"/>
+    <file src = "Files/Images/Blips/32.png"/>
+    <file src = "Files/Images/Blips/33.png"/>
+    <file src = "Files/Images/Blips/34.png"/>
+    <file src = "Files/Images/Blips/35.png"/>
+    <file src = "Files/Images/Blips/36.png"/>
+    <file src = "Files/Images/Blips/37.png"/>
+    <file src = "Files/Images/Blips/38.png"/>
+    <file src = "Files/Images/Blips/39.png"/>
+    <file src = "Files/Images/Blips/40.png"/>
+    <file src = "Files/Images/Blips/41.png"/>
+    <file src = "Files/Images/Blips/42.png"/>
+    <file src = "Files/Images/Blips/43.png"/>
+    <file src = "Files/Images/Blips/44.png"/>
+    <file src = "Files/Images/Blips/45.png"/>
+    <file src = "Files/Images/Blips/46.png"/>
+    <file src = "Files/Images/Blips/47.png"/>
+    <file src = "Files/Images/Blips/48.png"/>
+    <file src = "Files/Images/Blips/49.png"/>
+    <file src = "Files/Images/Blips/50.png"/>
+    <file src = "Files/Images/Blips/51.png"/>
+    <file src = "Files/Images/Blips/52.png"/>
+    <file src = "Files/Images/Blips/53.png"/>
+    <file src = "Files/Images/Blips/54.png"/>
+    <file src = "Files/Images/Blips/55.png"/>
+    <file src = "Files/Images/Blips/56.png"/>
+    <file src = "Files/Images/Blips/57.png"/>
+    <file src = "Files/Images/Blips/58.png"/>
+    <file src = "Files/Images/Blips/59.png"/>
+    <file src = "Files/Images/Blips/60.png"/>
+    <file src = "Files/Images/Blips/61.png"/>
+    <file src = "Files/Images/Blips/62.png"/>
+    <file src = "Files/Images/Blips/63.png"/>
+    <file src = "Files/Images/Blips/100.png"/>
+    <file src = "Files/Images/Blips/101.png"/>
+    <file src = "Files/Images/Blips/102.png"/>
+    
+    <file src = "Files/Images/Coupons/Coupon1.png"/>
+    <file src = "Files/Images/Coupons/Coupon2.png"/>
+    <file src = "Files/Images/Coupons/Coupon3.png"/>
+    <file src = "Files/Images/Coupons/Coupon4.png"/>
+	
+	<file src = "Files/Images/TreasureMap/TreasureMap1.png"/>
+	<file src = "Files/Images/TreasureMap/TreasureMap2.png"/>
+	<file src = "Files/Images/TreasureMap/TreasureMap3.png"/>
+    
+    <file src = "Files/Images/Timer/double_experience.png"/>
+    <file src = "Files/Images/Timer/double_money.png"/>
+    <file src = "Files/Images/Timer/double_skillpoints.png"/>
+    <file src = "Files/Images/Timer/zombie_immune.png"/>
+    <file src = "Files/Images/Timer/halloween_event.png"/>
+    <file src = "Files/Images/Timer/valentine_event.png"/>
+    <file src = "Files/Images/Timer/HouseLooting.png"/>
+    <file src = "Files/Images/Timer/nofoodtimer.png"/>
+    
+    <file src = "Files/Images/Colorpicker/blank.png"/>
+    <file src = "Files/Images/Colorpicker/cursor.png"/>
+    <file src = "Files/Images/Colorpicker/h.png"/>
+    <file src = "Files/Images/Colorpicker/sv.png"/>
+	
+	<file src = "Files/Images/Chests/SAACoin1.png"/>
+	<file src = "Files/Images/Chests/SAACoin2.png"/>
+	<file src = "Files/Images/Chests/SAACoin3.png"/>
+	<file src = "Files/Images/Chests/SAACoin4.png"/>
+	<file src = "Files/Images/Chests/GlendaleDamage.png"/>
+	<file src = "Files/Images/Chests/Tampa.png"/>
+	<file src = "Files/Images/Chests/Admiral.png"/>
+	<file src = "Files/Images/Chests/Pizzaboy.png"/>
+	
+	<file src = "Files/Images/Bonus/Infected_Survivors.png"/>
+	<file src = "Files/Images/Bonus/Airdrop.png"/>
+	<file src = "Files/Images/Bonus/Bigfoot.png"/>
+	<file src = "Files/Images/Bonus/Spinosaurus.png"/>
+	<file src = "Files/Images/Bonus/Fishing.png"/>
+	<file src = "Files/Images/Bonus/RaceArena.png"/>
+	<file src = "Files/Images/Bonus/RaceMinigame.png"/>
+	<file src = "Files/Images/Bonus/ZombieKillChallenge.png"/>
+	<file src = "Files/Images/Bonus/ShooterArena.png"/>
+	<file src = "Files/Images/Bonus/Zombie_Nests.png"/>
+	<file src = "Files/Images/Bonus/Metal_Detector.png"/>
+	<file src = "Files/Images/Bonus/Jobs.png"/>
+	<file src = "Files/Images/Bonus/Vehicle_Missions.png"/>
+	<file src = "Files/Images/Bonus/Vehicle_Quests.png"/>
+	<file src = "Files/Images/Bonus/Animals.png"/>
+	<file src = "Files/Images/Bonus/Looting.png"/>
+	<file src = "Files/Images/Bonus/Side_Quests.png"/>
+	<file src = "Files/Images/Bonus/Rhinos.png"/>
+	<file src = "Files/Images/Bonus/Decoration_NPCs.png"/>
+	<file src = "Files/Images/Bonus/NoBonus.png"/>
+	<file src = "Files/Images/Bonus/Zombie_Waves.png"/>
+	
+	<file src = "Files/Images/Tutorial/Tutorial_1.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_2.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_3.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_4.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_5.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_6.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_7.png"/>
+	<file src = "Files/Images/Tutorial/Tutorial_8.png"/>
+	
+	<file src = "Files/Images/Furniture/2274.jpg"/>
+	<file src = "Files/Images/Furniture/2276.jpg"/>
+	<file src = "Files/Images/Furniture/2277.jpg"/>
+	<file src = "Files/Images/Furniture/2278.jpg"/>
+	<file src = "Files/Images/Furniture/2279.jpg"/>
+	<file src = "Files/Images/Furniture/2280.jpg"/>
+	<file src = "Files/Images/Furniture/2281.jpg"/>
+	<file src = "Files/Images/Furniture/2282.jpg"/>
+	<file src = "Files/Images/Furniture/2285.jpg"/>
+	<file src = "Files/Images/Furniture/2286.jpg"/>
+	<file src = "Files/Images/Furniture/2287.jpg"/>
+	<file src = "Files/Images/Furniture/2288.jpg"/>
+	<file src = "Files/Images/Furniture/2289.jpg"/>
+	<file src = "Files/Images/Furniture/NoImage.png"/>
+	
+	<!-- Zombies -->
+	<file src = "Files/Skins/Zombies/2.txd"/>
+	<file src = "Files/Skins/Zombies/2.dff"/>
+	<file src = "Files/Skins/Zombies/13.txd"/>
+	<file src = "Files/Skins/Zombies/13.dff"/>
+	<file src = "Files/Skins/Zombies/14.txd"/>
+	<file src = "Files/Skins/Zombies/14.dff"/>
+	<file src = "Files/Skins/Zombies/21.txd"/>
+	<file src = "Files/Skins/Zombies/21.dff"/>
+	<file src = "Files/Skins/Zombies/31.txd"/>
+	<file src = "Files/Skins/Zombies/31.dff"/>
+	<file src = "Files/Skins/Zombies/32.txd"/>
+	<file src = "Files/Skins/Zombies/32.dff"/>
+	<file src = "Files/Skins/Zombies/33.txd"/>
+	<file src = "Files/Skins/Zombies/33.dff"/>
+	<file src = "Files/Skins/Zombies/38.txd"/>
+	<file src = "Files/Skins/Zombies/38.dff"/>
+	<file src = "Files/Skins/Zombies/39.txd"/>
+	<file src = "Files/Skins/Zombies/39.dff"/>
+	<file src = "Files/Skins/Zombies/93.txd"/>
+	<file src = "Files/Skins/Zombies/93.dff"/>
+	<file src = "Files/Skins/Zombies/102.txd"/>
+	<file src = "Files/Skins/Zombies/102.dff"/>
+	<file src = "Files/Skins/Zombies/103.txd"/>
+	<file src = "Files/Skins/Zombies/103.dff"/>
+	<file src = "Files/Skins/Zombies/104.txd"/>
+	<file src = "Files/Skins/Zombies/104.dff"/>
+	<file src = "Files/Skins/Zombies/121.txd"/>
+	<file src = "Files/Skins/Zombies/121.dff"/>
+	<file src = "Files/Skins/Zombies/122.txd"/>
+	<file src = "Files/Skins/Zombies/122.dff"/>
+	<file src = "Files/Skins/Zombies/123.txd"/>
+	<file src = "Files/Skins/Zombies/123.dff"/>
+	<file src = "Files/Skins/Zombies/132.txd"/>
+	<file src = "Files/Skins/Zombies/132.dff"/>
+	<file src = "Files/Skins/Zombies/133.txd"/>
+	<file src = "Files/Skins/Zombies/133.dff"/>
+	<file src = "Files/Skins/Zombies/167.txd"/>
+	<file src = "Files/Skins/Zombies/167.dff"/>
+	<file src = "Files/Skins/Zombies/194.txd"/>
+	<file src = "Files/Skins/Zombies/194.dff"/>
+	<file src = "Files/Skins/Zombies/205.txd"/>
+	<file src = "Files/Skins/Zombies/205.dff"/>
+	<file src = "Files/Skins/Zombies/211.txd"/>
+	<file src = "Files/Skins/Zombies/211.dff"/>
+	<file src = "Files/Skins/Zombies/233.txd"/>
+	<file src = "Files/Skins/Zombies/233.dff"/>
+	<file src = "Files/Skins/Zombies/249.txd"/>
+	<file src = "Files/Skins/Zombies/249.dff"/>
+	<file src = "Files/Skins/Zombies/258.txd"/>
+	<file src = "Files/Skins/Zombies/258.dff"/>
+	<file src = "Files/Skins/Zombies/259.txd"/>
+	<file src = "Files/Skins/Zombies/259.dff"/>
+	<file src = "Files/Skins/Zombies/260.txd"/>
+	<file src = "Files/Skins/Zombies/260.dff"/>
+    <!------------->
+
+    <file src = "Files/Skins/skeleton.txd"/>
+    <file src = "Files/Skins/skeleton.dff"/>
+    <file src = "Files/Skins/astronaut.txd"/>
+    <file src = "Files/Skins/astronaut.dff"/>
+    <file src = "Files/Skins/pirate.txd"/>
+    <file src = "Files/Skins/pirate.dff"/>
+	
+    <file src = "Files/Shader/Blur.fx"/>
+    <file src = "Files/Shader/Shader.fx"/>
+    <file src = "Files/Shader/EarthQuake.fx"/>
+    <file src = "Files/Images/Moon.png"/>
+	<file src = "Files/Images/Fabrik.png"/>
+    
+    <file src = "Files/Mods/pickaxe.txd"/>
+    <file src = "Files/Mods/pickaxe.dff"/>
+	<file src = "Files/Mods/tent.txd"/>
+	<file src = "Files/Mods/tent.dff"/>
+	<file src = "Files/Mods/tent.col"/>
+	<file src = "Files/Mods/loch_ness.txd"/>
+	<file src = "Files/Mods/loch_ness.dff"/>
+	
+	<file src = "Files/Mods/Objects/mushroom01.col"/>
+	<file src = "Files/Mods/Objects/mushroom01.dff"/>
+	<file src = "Files/Mods/Objects/mushroom02.col"/>
+	<file src = "Files/Mods/Objects/mushroom02.dff"/>
+	<file src = "Files/Mods/Objects/mushrooms.txd"/>
+	
+	<file src = "Files/Mods/nitro.dff"/>
+	<file src = "Files/Mods/nitro.txd"/>
+	
+	<file src = "Files/Mods/Vehicles/elegy.txd"/>
+	<file src = "Files/Mods/Vehicles/elegy.dff"/>
+	
+    <file src = "Files/Fonts/Long_Shot.ttf"/>
+    <file src = "Files/Fonts/antique_book_cover.otf"/>
+    <file src = "Files/Fonts/N_E_B_B.ttf"/>
+    <file src = "Files/Fonts/Wiltype.ttf"/>
+
+    <file src = "Files/Sounds/ReachedAchievement.wav"/>
+    <file src = "Files/Sounds/Photo.mp3"/>
+    <file src = "Files/Sounds/MenuOpen.mp3"/>
+    <file src = "Files/Sounds/MenuClose.mp3"/>
+    <file src = "Files/Sounds/Infobox.wav"/>
+    <file src = "Files/Sounds/Hitsound.mp3"/>
+    <file src = "Files/Sounds/RadioVibration.mp3"/>
+    <file src = "Files/Sounds/Pickaxe.wav"/>
+    <file src = "Files/Sounds/Spinosaurus_Roar.wav"/>
+	<file src = "Files/Sounds/Bigfoot_Damage.mp3"/>
+	<file src = "Files/Sounds/Bigfoot_Roar.mp3"/>
+	<file src = "Files/Sounds/loch_ness.mp3"/>
+    
+    <file src = "Files/Sounds/Activities/WoodPlankFalling.mp3"/>
+    
+    <file src = "Files/Models/Events/pumpkin.col"/>
+    <file src = "Files/Models/Events/pumpkin.dff"/>
+    <file src = "Files/Models/Events/pumpkin.txd"/>
+   
+    <file src = "Files/Models/Events/Christmas/Presents.txd"/>
+    <file src = "Files/Models/Events/Christmas/Present1.dff"/>
+    <file src = "Files/Models/Events/Christmas/Present2.dff"/>
+    <file src = "Files/Models/Events/Christmas/Present3.dff"/>
+    <file src = "Files/Models/Events/Christmas/Present4.dff"/>
+    <file src = "Files/Models/Events/Christmas/Present5.dff"/>
+	
+	<file src = "Files/Models/Events/Easter/rabbit.txd"/>
+	<file src = "Files/Models/Events/Easter/rabbit.dff"/>
+	<file src = "Files/Models/Events/Easter/easter_egg.txd"/>
+	<file src = "Files/Models/Events/Easter/easter_egg.dff"/>
+	<file src = "Files/Models/Events/Easter/easter_egg.col"/>
+	<file src = "Files/Models/Events/Easter/BunnyEars.txd"/>
+	<file src = "Files/Models/Events/Easter/BunnyEars.dff"/>
+	
+	<file src = "Files/Models/Animals/bear.dff"/>
+	<file src = "Files/Models/Animals/bear.txd"/>
+	<file src = "Files/Models/Animals/cow1.dff"/>
+	<file src = "Files/Models/Animals/cow1.txd"/>
+	<file src = "Files/Models/Animals/cow2.dff"/>
+	<file src = "Files/Models/Animals/cow2.txd"/>
+	<file src = "Files/Models/Animals/fox.dff"/>
+	<file src = "Files/Models/Animals/fox.txd"/>
+	<file src = "Files/Models/Animals/goat.dff"/>
+	<file src = "Files/Models/Animals/goat.txd"/>
+	<file src = "Files/Models/Animals/wolf.dff"/>
+	<file src = "Files/Models/Animals/wolf.txd"/>
+	<file src = "Files/Models/Animals/alligator.dff"/>
+	<file src = "Files/Models/Animals/alligator.txd"/>
+	<file src = "Files/Models/Animals/bigfoot.dff"/>
+	<file src = "Files/Models/Animals/bigfoot.txd"/>
+	<file src = "Files/Models/Animals/spinosaurus.txd"/>
+	<file src = "Files/Models/Animals/spinosaurus.dff"/>
+	<file src = "Files/Models/Animals/chicken.txd"/>
+	<file src = "Files/Models/Animals/chicken.dff"/>
+
+    <!--<script src = "Maps/mapEditorScriptingExtension_c.lua" type = "client" cache = "false"/>
+    <script src = "Maps/mapEditorScriptingExtension_s.lua"/>-->
+	
+	<!--<map src = "Maps/SAApocalypse.map"/>-->
+	<!--<map src = "Maps/Biohazard.map"/>-->
+	<!--<map src = "Maps/Events/Halloween.map"/>-->
+	
+	<!-------------------------------------------------------------------------------------------------------------------->
+	<!----------------------------------------------------- GAMEMODE ----------------------------------------------------->
+	<!-------------------------------------------------------------------------------------------------------------------->
+	
+	<script src = "Scripts/Activities/cServerbonus.lua" type = "client" cache = "false"/>
+	<script src = "Scripts/Activities/sServerbonus.lua"/>
+	
+	<!-- Anticheat -->
+		<script src = "Scripts/Systems/Adminsystem/Anticheat/cAnticheat.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Adminsystem/Anticheat/sAnticheat.lua"/>
+	
+	<!-- Usefull Functions -->
+		<script src = "Scripts/UsefullFunctions/smoothMoveCamera.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/dxDrawCircle3D.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/centerWindow.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/isMouseInPosition.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/setPedClothes.lua"/>
+		<script src = "Scripts/UsefullFunctions/getCustomTimestamp.lua"/>
+		<script src = "Scripts/UsefullFunctions/ColorPicker.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/attachEffect.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/cCustomSpeed.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/UsefullFunctions/sCustomSpeed.lua"/>
+	
+	<!-- Zombies -->	
+		<script src = "Scripts/Zombies/C.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Zombies/S.lua"/>
+		<script src = "Scripts/Zombies/cZombieWaves.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Zombies/sZombieWaves.lua"/>
+	
+	<!-- Main -->
+		<script src = "Scripts/cLogs.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/sLogs.lua"/>
+		<script src = "Scripts/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/cMain.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/sMain.lua"/>
+		<script src = "Scripts/Systems/cLobby.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sLobby.lua"/>
+		<script src = "Scripts/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/ClientUI/GUIClass/Client.lua" type = "client" cache = "false"/>
+	
+	<!-- Language -->
+		<script src = "Scripts/Language/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Language/cLanguage.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Language/sLanguage.lua"/>
+	
+	<!-- MySQL -->
+		<script src = "Scripts/MySQL/MySQL.lua"/>
+		<script src = "Scripts/MySQL/cLoginRegisterArea.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/sLoginRegisterArea.lua"/>
+		<script src = "Scripts/MySQL/cPlayerSpawn.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/sPlayerSpawn.lua"/>
+		<script src = "Scripts/MySQL/Accounts/cAccounts.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Accounts/sAccounts.lua"/>
+		<script src = "Scripts/MySQL/Charactersystem/cCharactersystem.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Charactersystem/sCharactersystem.lua"/>
+		<script src = "Scripts/MySQL/Charactersystem/cDailyLogin.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Charactersystem/sDailyLogin.lua"/>
+		<script src = "Scripts/MySQL/Tutorial/cTutorial.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Tutorial/sTutorial.lua"/>
+		<script src = "Scripts/MySQL/Tutorial/cTutorialPickups.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Tutorial/sTutorialPickups.lua"/>
+		<script src = "Scripts/MySQL/Settings/cSettings.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/MySQL/Settings/sSettings.lua"/>
+		
+	<!-- Events -->
+		<script src = "Scripts/Events/cEventsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/sEventsAllround.lua"/>
+		
+		<!-- Halloween -->
+		<script src = "Scripts/Events/Halloween/cHalloweenAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/sHalloweenAllround.lua"/>
+		<script src = "Scripts/Events/Halloween/cChest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/sChest.lua"/>
+		<script src = "Scripts/Events/Halloween/cHalloweenInfo.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/sCommunityPumpkin.lua"/>
+		<script src = "Scripts/Events/Halloween/cPumpkinSpawner.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/cPumpkinClick.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Activities/cTotem.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Activities/sTotem.lua"/>
+		<script src = "Scripts/Events/Halloween/Activities/cQuestUI.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Activities/sQuestUI.lua"/>
+		<script src = "Scripts/Events/Halloween/Rewards/cHalloweenRewards.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Rewards/sHalloweenRewards.lua"/>
+		<script src = "Scripts/Events/Halloween/Rewards/cHalloweenShop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Rewards/sHalloweenShop.lua"/>
+		<script src = "Scripts/Events/Halloween/Hearse/cHearse.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Hearse/sHearse.lua"/>
+		<script src = "Scripts/Events/Halloween/Hearse/cSkeletonTaxiDriver.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Halloween/Hearse/sSkeletonTaxiDriver.lua"/>
+		
+		<!-- Christmas -->
+		<script src = "Scripts/Events/Christmas/sChristmasAllround.lua"/>
+		
+		<!-- Valentine's Day -->
+		<script src = "Scripts/Events/Valentine/cValentine.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Valentine/sValentine.lua"/>
+		<script src = "Scripts/Events/Valentine/cCampfire.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Valentine/sCampfire.lua"/>
+		<script src = "Scripts/Events/Valentine/cInfo.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Valentine/cValentineQuest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Valentine/sValentineQuest.lua"/>
+		
+		<script src = "Scripts/Events/Chevrolet_Impala_Event/cChevrolet_Impala_Event.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Events/Chevrolet_Impala_Event/sChevrolet_Impala_Event.lua"/>
+		
+		<!-- Easter -->
+		<script src = "Scripts/Events/Easter/sEasterAllround.lua"/>
+	
+	<!-- Client UI -->
+		<script src = "Scripts/ClientUI/Chests/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/ClientUI/Chests/cChests.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Chests/sChests.lua"/>
+		<script src = "Scripts/ClientUI/Chests/cBuyChest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Chests/sBuyChest.lua"/>
+		<script src = "Scripts/ClientUI/cTacho.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/cInformation.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/cNametag.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/cScoreboard.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/cHUD.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Radio/cCompass.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Radio/sCompass.lua"/>
+		<script src = "Scripts/ClientUI/Radio/cRadio.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Radio/sRadio.lua"/>
+		<script src = "Scripts/ClientUI/Inventory/Items/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/ClientUI/Inventory/Items/cItems.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Inventory/Items/sItems.lua"/>
+		<script src = "Scripts/ClientUI/Inventory/Items/cTreasureMap.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Inventory/Items/sTreasureMap.lua"/>
+		<script src = "Scripts/ClientUI/Inventory/cInventory.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Inventory/PlayerKeys/cKeys.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Inventory/PlayerKeys/sKeys.lua"/>
+		<script src = "Scripts/ClientUI/Infobox/cInfobox.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/Infobox/sInfobox.lua"/>
+		<script src = "Scripts/ClientUI/cSelf.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/sSelf.lua"/>
+		<script src = "Scripts/ClientUI/cInformationHelpBar.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/ClientUI/cChangelogs.lua" type = "client" cache = "false"/>
+
+	<!-- Systems -->
+		<script src = "Scripts/Systems/sChat.lua"/>
+		<script src = "Scripts/Systems/cPlayerInteraction.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sPlayerInteraction.lua"/>
+		<script src = "Scripts/Systems/sTollBoth.lua"/>
+		<script src = "Scripts/Systems/cParty.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sParty.lua"/>
+		<script src = "Scripts/Systems/cWeeklyRewards.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sWeeklyRewards.lua"/>
+		<script src = "Scripts/Systems/cDailyWeaponBonus.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sDailyWeaponBonus.lua"/>
+		<script src = "Scripts/Systems/Adminsystem/cAdminsystemAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Adminsystem/sAdminsystemAllround.lua"/>
+		<script src = "Scripts/Systems/Storage/Weapons/cWeaponbox.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Storage/Weapons/sWeaponbox.lua"/>
+		<script src = "Scripts/Systems/Deathsystem/cDeathsystem.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Deathsystem/sDeathsystem.lua"/>
+		<script src = "Scripts/Systems/Helpmenu/cHelpmenu.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Helpmenu/sHelpmenu.lua"/>
+		<script src = "Scripts/Systems/Clothes/sClothesAllround.lua"/>
+		<script src = "Scripts/Systems/Clothes/cHeads.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Clothes/sHeads.lua"/>
+		<script src = "Scripts/Systems/Clothes/cClothesShop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Clothes/sClothesShop.lua"/>
+		<script src = "Scripts/Systems/Storage/cSafe.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Storage/sSafe.lua"/>
+		<script src = "Scripts/Systems/Crafting/sCraftingAllround.lua"/>
+		<script src = "Scripts/Systems/Crafting/cMenu.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Crafting/sMenu.lua"/>
+		<script src = "Scripts/Systems/Trading/cItemTradeNPC.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Trading/sItemTradeNPC.lua"/>
+		<script src = "Scripts/Systems/Market/cMarket.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Market/sMarket.lua"/>
+		<script src = "Scripts/Systems/Oven/cOven.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Oven/sOven.lua"/>
+		<script src = "Scripts/Systems/SpinningWheel/cSpinningWheel.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/SpinningWheel/sSpinningWheel.lua"/>
+		<script src = "Scripts/Systems/Weaponsystem/cWeaponsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Weaponsystem/sWeaponsAllround.lua"/>
+		<script src = "Scripts/Systems/Weaponsystem/cHitbox.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Weaponsystem/sHitbox.lua"/>
+		<script src = "Scripts/Systems/Weaponsystem/sExtraArmor.lua"/>
+		<script src = "Scripts/Systems/Weaponsystem/cShootingrange.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Weaponsystem/sShootingrange.lua"/>
+		<script src = "Scripts/Systems/Weaponsystem/cWeaponskills.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Weaponsystem/sWeaponskills.lua"/>
+		<script src = "Scripts/Systems/Skills/Sprintlevel/cSprintlevel.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Skills/Sprintlevel/sSprintlevel.lua"/>
+		<script src = "Scripts/Systems/Skills/cSkillsystemAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Skills/sSkillsystemAllround.lua"/>
+		<script src = "Scripts/Systems/Skills/cSkillMenu.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Skills/sSkillMenu.lua"/>
+		<script src = "Scripts/Systems/Days/cDays.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Days/sDays.lua"/>
+		<script src = "Scripts/Systems/Days/cEarthQuake.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/AFK/cAFK.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/AFK/sAFK.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/Campfire/cCampfire.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/Campfire/sCampfire.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/cObjectsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/sObjectsAllround.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/cBuyObjectPickups.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/BlackBoard/cBlackBoard.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/BlackBoard/sBlackBoard.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/Plants/sPlants.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/Safes/cSafe.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/Safes/sSafe.lua"/>
+		<script src = "Scripts/Systems/Objectsystem/StorageCrate/cStorageCrate.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Objectsystem/StorageCrate/sStorageCrate.lua"/>
+		<script src = "Scripts/Systems/Levelsystem/cUI.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Levelsystem/cLevelbar.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Levelsystem/cLevelsystem.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Levelsystem/sLevelsystem.lua"/>
+		<script src = "Scripts/Systems/Levelsystem/sRanks.lua"/>
+	    <script src = "Scripts/Systems/Payday/cPayday.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Payday/sPayday.lua"/>
+		<script src = "Scripts/Systems/Toplist/cToplist.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Toplist/sToplist.lua"/>
+		<script src = "Scripts/Systems/Friends/sFriends.lua"/>
+		<script src = "Scripts/Systems/cTent.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sTent.lua"/>
+		<script src = "Scripts/Systems/cGym.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sGym.lua"/>
+		<script src = "Scripts/Systems/Newbies/cNewbieBMX.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Newbies/sNewbieBMX.lua"/>
+		<script src = "Scripts/Systems/Premium/sPremium.lua"/>
+		<script src = "Scripts/Systems/cPirateIsland.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sPirateIsland.lua"/>
+		<script src = "Scripts/Systems/Notepad/cNotepad.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/Notepad/sNotepad.lua"/>
+		<script src = "Scripts/Systems/sPotions.lua"/>
+		<script src = "Scripts/Systems/TradingCards/cTradingCards.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/TradingCards/sTradingCards.lua"/>
+		<script src = "Scripts/Systems/TradingCards/cAlbum.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/TradingCards/sAlbum.lua"/>
+		<script src = "Scripts/Systems/cCompanion.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Systems/sCompanion.lua"/>
+		
+	<!-- Playerworld -->
+		<script src = "Scripts/Playerworld/Camps/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Playerworld/Animals/cAnimals.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Animals/sAnimals.lua"/>
+		<script src = "Scripts/Playerworld/NPCs/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Playerworld/NPCs/cNPCs.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/NPCs/NPCs.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/NPCs/sNPCs.lua"/>
+		<script src = "Scripts/Playerworld/NPCs/cNPCTrade.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/NPCs/sNPCTrade.lua"/>
+		<script src = "Scripts/Playerworld/NPCs/cDialogsystem.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Zones/cZones.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Zones/sZones.lua"/>
+		<script src = "Scripts/Playerworld/Zones/Safezones/cSafezones.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Zones/Safezones/sSafezones.lua"/>
+		<script src = "Scripts/Playerworld/Zones/FastTravel/cFastTravel.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Zones/FastTravel/sFastTravel.lua"/>
+		<script src = "Scripts/Playerworld/Places/cPlaces.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Places/sPlaces.lua"/>	
+		<script src = "Scripts/Playerworld/RadioTowers/cRadioTowers.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/RadioTowers/sRadioTowers.lua"/>
+		<script src = "Scripts/Playerworld/RadioTowers/Blips/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Playerworld/RadioTowers/Blips/cBlips.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/RadioTowers/Blips/sBlips.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Bar/cBar.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Bar/sBar.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/cWeaponshop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/sWeaponshop.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Items/cItemshop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Items/sItemshop.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Armor/cArmor.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Armor/sArmor.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Keys/cKeyshop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Keys/sKeyshop.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Vehicles/cVehicleshop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Vehicles/sVehicleshop.lua"/>
+		<script src = "Scripts/Playerworld/Decoration/cDecorationPeds.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Decoration/sDecorationPeds.lua"/>
+		<script src = "Scripts/Playerworld/Teleportmarker/cTeleportmarker.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Teleportmarker/Marker.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/cWeaponDealer.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/sWeaponDealer.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/cWeaponFactory.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Weapons/sWeaponFactory.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Coupons/cCoupons.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Coupons/sCoupons.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Coupons/Timer.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/cSeeds.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/sSeeds.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Bonuspoints/cBonuspoints.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Bonuspoints/sBonuspoints.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Food/SharedVendingMachine.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Food/cHotDog.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Food/sHotDog.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Food/cVendingMachine.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Food/sVendingMachine.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Food/sWater.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Food/Activities/cHungryThirstyPeds.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Food/Activities/sHungryThirstyPeds.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Food/cShakes.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Food/sShakes.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Fisher/cFisher.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Fisher/sFisher.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Safes/cSafes.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Safes/sSafes.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Doctor/cDoctor.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Doctor/sDoctor.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Furniture/cFurniture.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Furniture/sFurniture.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Bank/cBank.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/Bank/sBank.lua"/>
+		<script src = "Scripts/Playerworld/Shops/Bank/sATMs.lua"/>
+		<script src = "Scripts/Playerworld/Shops/cSellTrash.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/sSellTrash.lua"/>
+		<script src = "Scripts/Playerworld/Shops/cPotionShop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shops/sPotionShop.lua"/>
+		<script src = "Scripts/Playerworld/Shelter/cShelter.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Shelter/sShelter.lua"/>
+		<script src = "Scripts/Playerworld/Player/sEat-Drink.lua"/>
+		<script src = "Scripts/Playerworld/Moon/cMoon.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Moon/sMoon.lua"/>
+		<script src = "Scripts/Playerworld/Motel/cMotel.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/Motel/sMotel.lua"/>
+		<script src = "Scripts/Playerworld/EliteTeam/cEliteTeamAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/EliteTeam/sEliteTeamAllround.lua"/>
+		<script src = "Scripts/Playerworld/Sewerage/sSewerage.lua"/>
+		<script src = "Scripts/Playerworld/cMushrooms.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Playerworld/sMushrooms.lua"/>
+		
+	<!-- Activities -->
+		<script src = "Scripts/Activities/Jobs/OilTask/cOilTask.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/OilTask/sOilTask.lua"/>
+		<script src = "Scripts/Activities/Jobs/cJobsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/sJobsAllround.lua"/>
+		<script src = "Scripts/Activities/Jobs/StreetCleaner/cStreetCleaner.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/StreetCleaner/sStreetCleaner.lua"/>
+		<script src = "Scripts/Activities/Jobs/MetalDetector/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/MetalDetector/cMetalDetector.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/MetalDetector/sMetalDetector.lua"/>
+		<script src = "Scripts/Activities/Jobs/TreasureHunter/cTreasureHunter.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/TreasureHunter/sTreasureHunter.lua"/>
+		<script src = "Scripts/Activities/Jobs/Mining/cMining.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Mining/sMining.lua"/>
+		<script src = "Scripts/Activities/Jobs/Mining/Shop/cMiningShop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Mining/Shop/sMiningShop.lua"/>
+		<script src = "Scripts/Activities/Jobs/Lumberjack/cLumberjack.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Lumberjack/sLumberjack.lua"/>
+		<script src = "Scripts/Activities/Jobs/OceanCleaner/cOceanCleaner.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/OceanCleaner/sOceanCleaner.lua"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/cGraveyard.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/sGraveyard.lua"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/cGraveyardQuest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/sGraveyardQuest.lua"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/Shop/cGraveyardshop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/Shop/sGraveyardshop.lua"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/Ritual/cRitual.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Jobs/Graveyard/Ritual/sRitual.lua"/>
+		<script src = "Scripts/Activities/Jobs/Junkyard/sJunkyard.lua"/>
+		<script src = "Scripts/Activities/Fishing/cFishingAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Fishing/sFishingAllround.lua"/>
+		<script src = "Scripts/Activities/Fishing/cInformationPed.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Fishing/Shop/cSellFish.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Fishing/Shop/sSellFish.lua"/>
+		<script src = "Scripts/Activities/Fishing/cLochNess.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Fishing/sLochNess.lua"/>
+		<script src = "Scripts/Activities/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/cVehicles.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/sVehicles.lua" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/cLootingAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/sLootingAllround.lua"/>
+		<script src = "Scripts/Activities/Looting/cWoodPlanks.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Buildings/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Buildings/cBuildings.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Buildings/sBuildings.lua"/>
+		<script src = "Scripts/Activities/Looting/Buildings/ExtraActivities/sPolice-Quest1.lua"/>
+		<script src = "Scripts/Activities/Looting/Buildings/ExtraActivities/sPolice-Quest2.lua"/>
+		<script src = "Scripts/Activities/Looting/Buildings/ExtraActivities/sCasinos.lua"/>	
+		<script src = "Scripts/Activities/Looting/Houses/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Houses/cHouses.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Houses/sHouses.lua"/>
+		<script src = "Scripts/Activities/sNests.lua"/>
+		<script src = "Scripts/Activities/cRandomCrate.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/sRandomCrate.lua"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/cVehicles.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Vehicles/sVehicles.lua" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Dumpster/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Dumpster/cDumpster.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Looting/Dumpster/sDumpster.lua"/>	
+		<script src = "Scripts/Activities/Looting/Garages/sGarages.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/cTerminal.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/sTerminal.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/SurvivorPass/cSurvivorPass.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/SurvivorPass/sSurvivorPass.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/DailyTasks/cDailyTasks.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/DailyTasks/sDailyTasks.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/DailyTasks/WeeklyTasks/sWeeklyTasks.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/DailyTasks/cCommunityTask.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/DailyTasks/sCommunityTask.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/cQuestsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/sQuestsAllround.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/sQuestSeries.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/cOutfitsAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/sOutfitsAllround.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Police/Badges/cBadges.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Police/Badges/sBadges.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Police/Batons/cBatons.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Police/Batons/sBatons.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Chainsaw/cChainsaw.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/Outfits/Chainsaw/sChainsaw.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/VehicleQuests/sVehicleQuests.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/Data/sPlayerCameras.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/cCameraQuest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/sCameraQuest.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/sPrisonQuest.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/sFindOilQuest.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/VehicleEngine/cVehicleEngineQuest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/VehicleEngine/sVehicleEngineQuest.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/VehicleEngine/cMechanic.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/VehicleEngine/sMechanic.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/DrBrain/cAreaCard.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/DrBrain/sAreaCard.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/cAlcoholQuest.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/NormalQuests/sAlcoholQuest.lua"/>
+		<script src = "Scripts/Activities/PlayerQuests/cMiniSideQuests.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/PlayerQuests/sMiniSideQuests.lua"/>
+		<script src = "Scripts/Activities/VehicleMissions/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/VehicleMissions/cVehicleMissions.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/VehicleMissions/sVehicleMissions.lua"/>
+		<script src = "Scripts/Activities/VehicleMissions/Rhinos/cRhinos.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/VehicleMissions/Rhinos/sRhinos.lua"/>
+		<script src = "Scripts/Activities/BossFights/cBigfoot.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/BossFights/cBigfootClub.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/BossFights/sBigfoot.lua"/>
+		<script src = "Scripts/Activities/BossFights/sBigfootClub.lua"/>
+		<script src = "Scripts/Activities/BossFights/cBigfootJail.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/BossFights/sBigfootJail.lua"/>
+		<script src = "Scripts/Activities/BossFights/Dinosaur/cDinosaur.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/BossFights/Dinosaur/sDinosaur.lua"/>
+		<script src = "Scripts/Activities/BossFights/Dinosaur/cSpinosaurusClub.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/BossFights/Dinosaur/sSpinosaurusClub.lua"/>
+		<script src = "Scripts/Activities/BossFights/Shark/sDivingSuit.lua"/>
+		<script src = "Scripts/Activities/BossFights/Shark/cDivingSuit.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/UI/ProgressBar.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/UI/Informationtext.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/InfectedSurvivors/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Activities/InfectedSurvivors/cInfectedSurvivors.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/InfectedSurvivors/sInfectedSurvivors.lua"/>
+		<script src = "Scripts/Activities/InfectedSurvivors/Characters/cDrBrain.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/InfectedSurvivors/Characters/sDrBrain.lua"/>
+		<script src = "Scripts/Activities/Games/ShooterArena/cShooterArena.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Games/ShooterArena/sShooterArena.lua"/>
+		<script src = "Scripts/Activities/Games/RaceArena/cRaceArena.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Games/RaceArena/sRaceArena.lua"/>
+		<script src = "Scripts/Activities/Games/cRaceMinigame.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/Games/sRaceMinigame.lua"/>
+		<script src = "Scripts/Activities/Games/sZombieMinigame.lua"/>
+		<script src = "Scripts/Activities/cSpecialAirdrop.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Activities/sSpecialAirdrop.lua"/>
+		
+	<!-- Collectibles -->
+		<script src = "Scripts/Collectibles/cCollectibles.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/sShells.lua"/>
+		<script src = "Scripts/Collectibles/cTrophyHouse.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/sTrophyHouse.lua"/>
+		<script src = "Scripts/Collectibles/Achievements/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Collectibles/Achievements/cAchievements.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Achievements/sAchievements.lua"/>
+		<script src = "Scripts/Collectibles/Documents/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Collectibles/Documents/cDocuments.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Documents/sDocuments.lua"/>
+		<script src = "Scripts/Collectibles/Photos/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Collectibles/Photos/cPhotos.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Photos/sPhotos.lua"/>
+		<script src = "Scripts/Collectibles/PrestigeObjects/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Collectibles/PrestigeObjects/cPrestigeObjects.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/PrestigeObjects/sPrestigeObjects.lua"/>
+		<script src = "Scripts/Collectibles/Status/sStatus.lua"/>
+		<script src = "Scripts/Collectibles/Pickups/cPickups.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Pickups/sPickups.lua"/>
+		<script src = "Scripts/Collectibles/Sharks/cSharks.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Sharks/sSharks.lua"/>
+		<script src = "Scripts/Collectibles/Badges/Shared.lua" type = "shared" cache = "false"/>
+		<script src = "Scripts/Collectibles/Badges/cBadges.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Collectibles/Badges/sBadges.lua"/>
+		
+	<!-- Vehiclesystem -->
+		<script src = "Scripts/Vehiclesystem/cVehiclesAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/sVehiclesAllround.lua"/>
+		<script src = "Scripts/Vehiclesystem/cVehicleDealer.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/sVehicleDealer.lua"/>
+		<script src = "Scripts/Vehiclesystem/Garage/cUndergroundGarage.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Garage/sUndergroundGarage.lua"/>
+		<script src = "Scripts/Vehiclesystem/PayNSprays/cPayNSpray.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/PayNSprays/sPayNSpray.lua"/>
+		<script src = "Scripts/Vehiclesystem/Garage/cGarage.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Garage/sGarage.lua"/>
+		<script src = "Scripts/Vehiclesystem/Garage/cPlayerGarages.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Garage/sPlayerGarages.lua"/>
+		<script src = "Scripts/Vehiclesystem/Tuning/cTuning.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Tuning/sTuning.lua"/>
+		<script src = "Scripts/Vehiclesystem/Tuning/cSpecialEngine.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Tuning/sSpecialEngine.lua"/>
+		<script src = "Scripts/Vehiclesystem/Gasstations/cGasstations.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Vehiclesystem/Gasstations/sGasstations.lua"/>
+		
+	<!-- Colonys -->
+		<script src = "Scripts/Colonys/cColonysAllround.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/sColonysAllround.lua"/>
+		<script src = "Scripts/Colonys/sColonyLevels.lua"/>
+		<script src = "Scripts/Colonys/Activities/cAreaFights.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Activities/sAreaFights.lua"/>
+		<script src = "Scripts/Colonys/Activities/MoneyTransporter/cMoneyTransporter.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Activities/MoneyTransporter/sMoneyTransporter.lua"/>
+		<script src = "Scripts/Colonys/Activities/Flag/cFlag.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Activities/Flag/sFlag.lua"/>
+		<script src = "Scripts/Colonys/Activities/Warehouse/cWarehouse.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Activities/Warehouse/sWarehouse.lua"/>
+		<script src = "Scripts/Colonys/Activities/WeaponTransport/cWeaponTransport.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Activities/WeaponTransport/sWeaponTransport.lua"/>
+		<script src = "Scripts/Colonys/Zombies/cZombieExperiments.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Zombies/sZombieExperiments.lua"/>
+		<script src = "Scripts/Colonys/cTrash.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/sTrash.lua"/>
+		<script src = "Scripts/Colonys/cWarehouse.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/sWarehouse.lua"/>
+		<script src = "Scripts/Colonys/cMissions.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/sMissions.lua"/>
+		<script src = "Scripts/Colonys/Missions/cChicken.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/Missions/sChicken.lua"/>
+		<script src = "Scripts/Colonys/cFabrikwars.lua" type = "client" cache = "false"/>
+		<script src = "Scripts/Colonys/sFabrikwars.lua"/>
+		
+	<!-- !LAST! -->
+		<script src = "Scripts/SAA.lua" type = "client" cache = "false"/>
+</meta>

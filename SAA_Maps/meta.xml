@@ -1,0 +1,28 @@
+<meta>
+    <script src = "mapEditorScriptingExtension_c.lua" type = "client" cache = "false"/>
+    <script src = "mapEditorScriptingExtension_s.lua"/>
+
+	<map src = "SAApocalypse.map"/>
+	<map src = "Events/Halloween.map"/>
+
+	<script src = "Jewelry/client.lua" type="client" />
+	<file src = "Jewelry/1.dff" />
+    <file src = "Jewelry/1.txd" />
+    <file src = "Jewelry/1.col" />
+	<file src = "Jewelry/2.dff" />
+	<file src = "Jewelry/2.txd" />
+	<file src = "Jewelry/2.col" />
+	<file src = "Jewelry/3.dff" />
+	<file src = "Jewelry/3.txd" />
+	<file src = "Jewelry/3.col" />
+	<file src = "Jewelry/4.dff" />
+	<file src = "Jewelry/4.txd" />
+	<file src = "Jewelry/4.col" />
+	<file src = "Jewelry/5.dff" />
+	<file src = "Jewelry/5.txd" />
+	<file src = "Jewelry/5.col" />
+	<file src = "Jewelry/door.dff" />
+	<file src = "Jewelry/door.txd" />
+	<file src = "Jewelry/door.col" />
+	<map src = "Jewelry/map_javahery.map" dimension = "0"></map>
+</meta>
