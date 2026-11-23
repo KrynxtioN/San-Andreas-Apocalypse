@@ -8,12 +8,10 @@ Detailed information can be found in the official wiki: https://github.com/Krynx
 
 |Gamemode Overview||
 |--------|------|
-|LUA files|491|
-|other files|1133|
-|functions|3756|
-|lines|95861|
-|characters|3844479|
-|comment-lines|1284|
-|comment-characters|21975|
-|total updates|43| 
-|current version|1.1.0| 
+|LUA files|488|
+|other files|1157|
+|functions|3752|
+|lines|95708|
+|characters|3824864|
+|comment-lines|1259|
+|comment-characters|20844|
