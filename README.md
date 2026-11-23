@@ -6,12 +6,13 @@ San Andreas Apocalypse is an extensive post-apocalyptic MMORPG built for Multi T
 
 Detailed information can be found in the official wiki: https://github.com/KrynxtioN/San-Andreas-Apocalypse/wiki
 
-|Gamemode Overview||
-|--------|------|
-|LUA files|488|
-|other files|1157|
-|functions|3752|
-|lines|95708|
-|characters|3824864|
-|comment-lines|1259|
-|comment-characters|20844|
+## 📊 Project Statistics
+|Metric|Count|
+|------|-----|
+|Lua Files|488|
+|Additional Files|1157|
+|Functions|3752|
+|Lines|95708|
+|Characters|3824864|
+|Comment Lines|1259|
+|Comment Characters|20844|
