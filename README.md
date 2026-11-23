@@ -2,9 +2,9 @@
   <img src="https://i.imgur.com/spoIqj5.png" alt="Logo" width="400">
 </p>
    
-San Andreas Apocalypse is a post-apocalyptic multiplayer adventure set in Grand Theft Auto: San Andreas Multiplayer mod Multi Theft Auto. The basic framework of the gamemode was originally developed in late 2021, but further development did not resume until mid-2024. The server officially launched in September 2024 and has received numerous updates ever since.
+San Andreas Apocalypse is an extensive post-apocalyptic MMORPG built for Multi Theft Auto (MTA), the multiplayer modification for Grand Theft Auto: San Andreas.
 
-For detailed gameplay information, visit the wiki: https://github.com/KrynxtioN/San-Andreas-Apocalypse/wiki       
+Detailed information can be found in the official wiki: https://github.com/KrynxtioN/San-Andreas-Apocalypse/wiki
 
 |Gamemode Overview||
 |--------|------|
